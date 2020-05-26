@@ -37,13 +37,13 @@ Für die Eiligen:
 
 Wir folgen ziemlich genau diesem Vorgehen auf der “Visual Studio Code” (vscode) Seite
 
-<https://code.visualstudio.com/docs/python/python-tutorial> bis zu dem Punkt “Configure and run the debugger”.
+[https://code.visualstudio.com/docs/python/python-tutorial](https://code.visualstudio.com/docs/python/python-tutorial) bis zu dem Punkt “Configure and run the debugger”.
 
 Aber Schritt für Schritt:
 
 Ladet Euch “Visual Studio Code” herunter (für Windows/OSX/Linux):
 
-    <https://code.visualstudio.com/>
+    [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 Startet den heruntergeladenen “Installer”, wartet ein paar Minuten und startet “Visual Studio Code”
 
