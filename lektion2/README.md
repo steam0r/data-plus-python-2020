@@ -149,7 +149,7 @@ y = 4
 if (x == y):
     print("passt!")
 else:
-print("passt nicht!")
+    print("passt nicht!")
 ```
 
 Über "if" und "else" haben wir Einfluss genommen in den Ablauf unseres Programmen, wir können Abzweigungen erschaffen und damit "Fälle" 
@@ -185,7 +185,7 @@ x = 4
 if (x == 5):
   print("hä?")
   print("irgendwas ist faul")
-print("ende des programms)
+print("ende des programms")
 ```
 
 #### **Schleifen**
