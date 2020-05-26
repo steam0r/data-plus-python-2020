@@ -43,7 +43,7 @@ Aber Schritt für Schritt:
 
 Ladet Euch “Visual Studio Code” herunter (für Windows/OSX/Linux):
 
-    [https://code.visualstudio.com/](https://code.visualstudio.com/)
+[https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 Startet den heruntergeladenen “Installer”, wartet ein paar Minuten und startet “Visual Studio Code”
 
