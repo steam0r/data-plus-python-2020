@@ -23,3 +23,9 @@ without a computer](https://www.csunplugged.org/en/)
 ](http://www.bottomupcs.com/)
 - [Awesome dataviz
 ](https://github.com/fasouto/awesome-dataviz#python-tools)
+
+# media
+
+- [Netflix - Explained - Programmieren](https://www.netflix.com/watch/81097620)
+- [HUMBLE BOOK BUNDLE: LEARN YOU SOME PYTHON](https://www.humblebundle.com/books/learn-you-some-python-no-starch-press-books)
+
