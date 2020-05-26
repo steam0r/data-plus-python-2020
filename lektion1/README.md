@@ -29,7 +29,7 @@ dann wieder Maschinensprache erstellen, quasi ein Übersetzer. Sogenannte Interp
 den wir uns als hübsch und recht einfach ausgesucht haben um ihn zu lernen. Dieser Übersetzungsjob ist Teil des “Buildprozesses”, 
 zu Versionskontrolle kommen wir später...es geht im groben darum, dass man Dinge rückgängig machen kann.
 
-Wer das alles etwas weniger langweilig erklärt haben möchte, kann sich ca. 30 Minuten (bei vorhandenem Netflix-Account) [“Explained - Programmieren”](https://help.netflix.com/de/node/23742) angucken. 
+Wer das alles etwas weniger langweilig erklärt haben möchte, kann sich ca. 30 Minuten (bei vorhandenem Netflix-Account) [“Explained - Programmieren”](https://www.netflix.com/watch/81097620) angucken. 
 
 Aber jetzt geht’s los:
 
