@@ -24,6 +24,10 @@ without a computer](https://www.csunplugged.org/en/)
 - [Awesome dataviz
 ](https://github.com/fasouto/awesome-dataviz#python-tools)
 
+# daten
+
+- [csse_covid_19_time_series](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv)
+
 # media
 
 - [Netflix - Explained - Programmieren](https://www.netflix.com/watch/81097620)
