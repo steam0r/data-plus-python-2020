@@ -38,6 +38,11 @@ msg = "Hallo Welt"
 print(msg)
 ```
 
+Ausgabe:
+```
+Hallo Welt
+```
+
 Die Ausgabe dieses Programms wird "Hallo Welt" sein, da wir den initialen Wert der Variable "Hello World" in der zweiten Zeile direkt 
 ändern und dann den geänderten Wert an "print" geben (welches eine *Funktion* ist, die für die Ausgabe auf dem BIldschirm zuständig ist).
 
@@ -64,6 +69,11 @@ msg = x / 2
 print(msg)
 ```
 
+Ausgabe:
+```
+2.0
+```
+
 Erhalten wir eine Ausgabe von "2". Probieren sie aus, was hiermit möglich ist. Ändern sie den Wert von *x*, ändern sie die "2" in der 
 zweiten Zeile in eine andere Zahl und führen Sie jeweils das Programm aus um die Ausgabe zu betrachten. Führen sie ggf eine dritte 
 Variable ein, oder versuchen sie zwei Ausgaben zu erzeugen.
@@ -78,6 +88,11 @@ können. Ein kurzer versuch eine Variable nachträglich zu ändern wird fehlschl
 x = "Hallo"
 print(x)
 x = "Auf Wiedersehen!"
+```
+
+Ausgabe:
+```
+Hallo
 ```
 
 Wird weiterhin "Hallo" ausgeben, da die "print" Anweisung vor der Änderung der Variable stattfindet. Wir lernen später Möglichkeiten 
@@ -107,6 +122,11 @@ x = 4
 y = 5
 msg = x == y
 print(msg)
+```
+
+Ausgabe:
+```
+False
 ```
 
 Die Ausgabe dieses Programms wird "False" sein, da "4 nicht gleich 5" ist. Versuchen Sie unterschiedliche Werte für die Variablen 
@@ -140,6 +160,11 @@ if (x == y):
     print("passt!")
 ```
 
+Ausgabe:
+```
+passt!
+```
+
 Diese Programm wird "passt!" ausgeben. Probieren sie andere Werte für *x* und *y* sowie andere Vergleichsoperatoren in Zeile drei. 
 Modifizieren sie danach das Programm wie folgt und probieren ebenfalls aus was mit unterschiedlichen Weten für *x* und *y* passiert:
 
@@ -150,6 +175,11 @@ if (x == y):
     print("passt!")
 else:
     print("passt nicht!")
+```
+
+Ausgabe (ohne Änderungen):
+```
+passt!
 ```
 
 Über "if" und "else" haben wir Einfluss genommen in den Ablauf unseres Programmen, wir können Abzweigungen erschaffen und damit "Fälle" 
@@ -167,6 +197,11 @@ else:
   print("y größer")
 ```
 
+Ausgabe:
+```
+y größer
+```
+
 Achten Sie auf die Einrückung, probieren sie folgendes aus:
 
 ```python
@@ -174,6 +209,11 @@ x = 4
 if (x == 5):
   print("hä?")
 print("ende des programms")
+```
+
+Ausgabe (ohne Änderungen):
+```
+ende des programms
 ```
 
 Hier wird, trotz der Abfrage in Zeile zwei, der Befehl in der letzten Zeile immer ausgeführt. Die Einrückung auf Zeile drei endet 
@@ -186,6 +226,11 @@ if (x == 5):
   print("hä?")
   print("irgendwas ist faul")
 print("ende des programms")
+```
+
+Ausgabe (ohne Änderungen):
+```
+ende des programms
 ```
 
 #### **Schleifen**
@@ -209,6 +254,16 @@ while (x < 5):
   print(x)
   x = x + 1
 print("fertig")
+```
+
+Ausgabe:
+```
+0
+1
+2
+3
+4
+fertig
 ```
 
 Der Befehl "while" funktioniert hier ähnlich wie das "if" oben und überprüft den Wahrheitswert des Vergleiches. Ist dieser "True", wird der 
@@ -235,6 +290,14 @@ Datei (if.py, while.py, test.py, ...) anzulegen und diese jeweils separat auszuf
 for i in ["montag", "dienstag", "mittwoch"]:
   print(i)
 print("fertig")
+```
+
+Ausgabe:
+```
+montag
+dienstag
+mittwoch
+fertig
 ```
 
 Diese Programm wird in der Ausgabe von "montag" bis "mittwoch" und danach "fertig" ausgeben. Warum?
@@ -276,6 +339,13 @@ Vergleich zweier Zeichenketten:
 print("hund" == "katze")
 ```
 
+Ausgabe:
+```
+4
+hundkatze
+False
+```
+
 Was Zeichenketten nicht "können" sind mathematisch Operationen oder Vergleiche:
 
 ```python
@@ -298,6 +368,12 @@ print(4 / 2)
 print(4 == 4)
 ```
 
+Ausgabe:
+```
+2.0
+True
+```
+
 Auch hier geht, wie oben schon dargestellt, ein Vergleich und Operationen mit "Strings" nicht.
 
 ```python
@@ -313,6 +389,14 @@ Wie oben kennengelernt besteht eine Liste aus unterschiedlichen Elementen die, i
 ```python
 for i in [1, 2, 3, 4]:
   print(i + i)
+```
+
+Ausgabe:
+```
+2
+4
+6
+8
 ```
 
 ```python

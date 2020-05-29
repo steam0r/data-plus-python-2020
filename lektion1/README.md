@@ -94,7 +94,13 @@ msg = "Hello World"
 print(msg)
 ```
 
-Nachdem wir die Datei mit cmd/ctrl/strg-s gespeichert haben können wir oben rechts im Editor auf das “Play”-Symbol klicken und es ausführen. 
+Nachdem wir die Datei mit cmd/ctrl/strg-s gespeichert haben können wir oben rechts im Editor auf das “Play”-Symbol klicken und es ausführen.
+
+Die Ausgabe sollte in etwa so aussehen:
+
+```
+Hello World
+```
 
 ![](<https://code.visualstudio.com/assets/docs/python/tutorial/run-python-file-in-terminal-button.png>)
 

@@ -56,6 +56,14 @@ print "Level: ", level
 print "Klasse: ", charakterKlasse
 ```
 
+Ausgabe:
+```
+Leben: 2
+Punkte: 5711
+Level: 12
+Klasse: Barde
+```
+
 Das Spiel könnte nun diese eingelesenen Werte setzen und das Spiel kann bei Level 12 mit 2 Leben fortgesetzt werden.
 
 Wir sehen, dass wir einzelnen Elemente einer liste mit `[0]` adressieren können und nicht, wie in der vorherigen Lektion
@@ -186,6 +194,29 @@ for row in csv_reader:
 print("Zeilen in Datei:", line_count)
 ```
 
+Ausgabe (gekürzt, unterer Teil):
+```
+...
+Name Spalte: 114 5/11/20
+Name Spalte: 115 5/12/20
+Name Spalte: 116 5/13/20
+Name Spalte: 117 5/14/20
+Name Spalte: 118 5/15/20
+Name Spalte: 119 5/16/20
+Name Spalte: 120 5/17/20
+Name Spalte: 121 5/18/20
+Name Spalte: 122 5/19/20
+Name Spalte: 123 5/20/20
+Name Spalte: 124 5/21/20
+Name Spalte: 125 5/22/20
+Name Spalte: 126 5/23/20
+Name Spalte: 127 5/24/20
+Name Spalte: 128 5/25/20
+Name Spalte: 129 5/26/20
+Name Spalte: 130 5/27/20
+Zeilen in Datei: 254
+```
+
 Wir `import`ieren das csv modul, lesen eine Datei mit dem angegebenen Namen `time_series_covid19_recovered_global.csv` im lokalen
 Verzeichnis aus, setzen uns einen "Zähler" um die Zeilenanzahl zu zählen, machen eine Schleife über jede Zeile, überprüfen
 ob es sich um die erste Zeile handelt (unsere "Header"-Zeile) und machen dann in der Schleife eine weitere Schleife über jede Spalte
@@ -223,6 +254,30 @@ for row in csv_reader:
 print("Zeilen in Datei:", line_count)
 ```
 
+Ausgabe (gekürzt, unterer Teil):
+```
+...
+Provice: Anguilla Region: United Kingdom Number: 3
+Provice: British Virgin Islands Region: United Kingdom Number: 6
+Provice: Turks and Caicos Islands Region: United Kingdom Number: 10
+Provice:  Region: MS Zaandam Number: 0
+Provice:  Region: Botswana Number: 19
+Provice:  Region: Burundi Number: 20
+Provice:  Region: Sierra Leone Number: 241
+Provice: Bonaire, Sint Eustatius and Saba Region: Netherlands Number: 6
+Provice:  Region: Malawi Number: 28
+Provice: Falkland Islands (Malvinas) Region: United Kingdom Number: 13
+Provice: Saint Pierre and Miquelon Region: France Number: 1
+Provice:  Region: South Sudan Number: 6
+Provice:  Region: Western Sahara Number: 6
+Provice:  Region: Sao Tome and Principe Number: 4
+Provice:  Region: Yemen Number: 11
+Provice:  Region: Comoros Number: 18
+Provice:  Region: Tajikistan Number: 1223
+Provice:  Region: Lesotho Number: 0
+Zeilen in Datei: 254
+```
+
 Wir ändern den Vergleichsoperator `==` auf ein `>` und ignorieren damit die nicht mehr relevanten Headerzeilen.
 
 Auch referenzieren wir die Datensätze der Zeile `row` direkt, da wir den Zähler für die Zellen nicht mehr brauchen.
@@ -244,6 +299,31 @@ for row in csv_reader:
             print("Region:", row[1], "Number:", row[126])
     line_count += 1
 print("Zeilen in Datei:", line_count)
+```
+
+Ausgabe (gekürzt, unterer Teil):
+```
+...
+Region: Vietnam Number: 267
+Region: Zambia Number: 336
+Region: Zimbabwe Number: 18
+Region: West Bank and Gaza Number: 348
+Region: Laos Number: 14
+Region: Kosovo Number: 782
+Region: Burma Number: 120
+Region: MS Zaandam Number: 0
+Region: Botswana Number: 19
+Region: Burundi Number: 20
+Region: Sierra Leone Number: 241
+Region: Malawi Number: 28
+Region: South Sudan Number: 6
+Region: Western Sahara Number: 6
+Region: Sao Tome and Principe Number: 4
+Region: Yemen Number: 11
+Region: Comoros Number: 18
+Region: Tajikistan Number: 1223
+Region: Lesotho Number: 0
+Zeilen in Datei: 254
 ```
 
 Der Filter funktioniert weil der Wert für `row[0]` `False` ist wenn er leer oder nicht gesetzt ist, und damit der
