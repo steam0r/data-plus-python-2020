@@ -5,7 +5,7 @@ Hallo,
 mit deutlicher Verspätung hier die nächste Lektion. In der vorherigen Lektion haben wir gelernt
 wie wir Daten aus CSV-Dateien einlesen und als Text ausgeben.
 
-Wir werden in dieser Lektion lernen wie wir mit Python Daten manipulieren (errechnen) können
+Wir werden in dieser Lektion lernen wie wir mit Python Daten aufbereiten können
 und unter Zuhilfenahme einer externen Bibliothek einen einfachen Graphen aus diesen Daten
 zeichnen können.
 
