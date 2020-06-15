@@ -5,6 +5,7 @@
 - [Lektion 1: Setup Entwicklungsumgebung und "Hello World"](lektion1/)
 - [Lektion 2: Logik, Datentypen, Kontrollstrukturen](lektion2/)
 - [Lektion 3: Einlesen von Daten zur weiteren Verarbeitung](lektion3/)
+- [Lektion 4: Externe Bibliotheken, Daten vorformatieren, Graphen zeichnen](lektion4/)
  
 ## links
 
@@ -24,6 +25,8 @@ without a computer](https://www.csunplugged.org/en/)
 ](http://www.bottomupcs.com/)
 - [Awesome dataviz
 ](https://github.com/fasouto/awesome-dataviz#python-tools)
+- [matplotlib beispiele](https://matplotlib.org/3.2.1/tutorials/introductory/sample_plots.html)
+- [matplotlib und pandas](https://queirozf.com/entries/pandas-dataframe-plot-examples-with-matplotlib-pyplot)
 
 # daten
 
