@@ -6,6 +6,7 @@
 - [Lektion 2: Logik, Datentypen, Kontrollstrukturen](lektion2/)
 - [Lektion 3: Einlesen von Daten zur weiteren Verarbeitung](lektion3/)
 - [Lektion 4: Externe Bibliotheken, Daten vorformatieren, Graphen zeichnen](lektion4/)
+- [Lektion 5: Mehr Pandas, mehr matplotlib, mehr Graphen](lektion5/)
  
 ## links
 
@@ -27,6 +28,7 @@ without a computer](https://www.csunplugged.org/en/)
 ](https://github.com/fasouto/awesome-dataviz#python-tools)
 - [matplotlib beispiele](https://matplotlib.org/3.2.1/tutorials/introductory/sample_plots.html)
 - [matplotlib und pandas](https://queirozf.com/entries/pandas-dataframe-plot-examples-with-matplotlib-pyplot)
+- [Easy Steps To Plot Geographic Data on a Map](https://towardsdatascience.com/easy-steps-to-plot-geographic-data-on-a-map-python-11217859a2db)
 
 # daten
 
