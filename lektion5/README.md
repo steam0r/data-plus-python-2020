@@ -1,4 +1,4 @@
-# Lektion 5: Mehr Pandas, mehr matplotlib, mehr Graphen
+# Lektion 5: Mehr Pandas, mehr matplotlib, mehr Graphen, Daten speichern
 
 Hey,
 
@@ -318,6 +318,25 @@ plt.title('Afghanistan')
 plt.axis('equal')
 plt.show()
 ```
+
+## Daten speichern
+
+Wir können jederzeit die von uns verarbeiteten Daten auch wieder zurück in eine CSV-Datei speichern um sie dann
+z.B. in Excel oder matplotlib einzulesen. Dazu nutzen wir einfach eine weitere Funktion von Pandas ``.
+
+Für das Beispiel mit den "Top 10" oben, sieht das dann so aus:
+
+```python
+import pandas
+csv = pandas.read_csv('time_series_covid19_recovered_global.csv')
+date = csv[csv['5/23/20'] > 0]
+sorted = date.sort_values(by=['5/23/20'], ascending=False)
+data = sorted[['Country/Region', 'Province/State', '5/23/20']].head(10)
+data.to_csv('top10.csv', index=False)  
+```
+
+Die Ausgabe ist eine Datei "top10.csv" die unsere gefilterten, sortierten Daten beinhaltet und
+in Excel, R, SPSS oder auch in Python wieder eingelesen werden kann.
 
 ## Fazit
 

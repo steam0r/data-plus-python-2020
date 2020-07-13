@@ -7,7 +7,8 @@
 - [Lektion 3: Einlesen von Daten zur weiteren Verarbeitung](lektion3/)
 - [Lektion 4: Externe Bibliotheken, Daten vorformatieren, Graphen zeichnen](lektion4/)
 - [Lektion 5: Mehr Pandas, mehr matplotlib, mehr Graphen](lektion5/)
- 
+- [Lektion 6: Programme strukturieren, Variablen, Funktionen, Module](lektion6/)
+
 ## links
 
 - [Python for Social Scientists](https://realpython.com/python-for-social-scientists/)
@@ -29,6 +30,7 @@ without a computer](https://www.csunplugged.org/en/)
 - [matplotlib beispiele](https://matplotlib.org/3.2.1/tutorials/introductory/sample_plots.html)
 - [matplotlib und pandas](https://queirozf.com/entries/pandas-dataframe-plot-examples-with-matplotlib-pyplot)
 - [Easy Steps To Plot Geographic Data on a Map](https://towardsdatascience.com/easy-steps-to-plot-geographic-data-on-a-map-python-11217859a2db)
+- [Creating Song Lyrics Graphs](https://onehundredairports.com/2020/06/13/creating-song-lyrics-graphs/)
 
 # daten
 
